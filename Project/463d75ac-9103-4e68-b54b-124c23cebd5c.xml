@@ -1,0 +1,33 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=setEnableServer	G=VAR
+++D=SktTCPAccept	N=InstTCPAccept	G=VAR
+++D=UINT	N=setSrcTCPPort	G=VAR
+++D=UINT	N=setTCPAcceptTimeOut	G=VAR
+++D=BOOL	N=setSktTCP_NODELAY	G=VAR
+++D=SktSetOption	N=InstTCPNoDelay	G=VAR
+++D=BOOL	N=SetNoDelayOnOff	G=VAR
+++D=BOOL	N=setClearBuffer	G=VAR
+++D=SktClearBuf	N=InstClearBuffer	G=VAR
+++D=BOOL	N=getTCPStatus	G=VAR
+++D=SktGetTCPStatus	N=InstGetTCPStatus	G=VAR
+++D=_eCONNECTION_STATE	N=getConnectionStatus	G=VAR
+++D=BOOL	N=getDataRcvFlag	G=VAR
+++D=BOOL	N=setCloseServer	G=VAR
+++D=SktClose	N=InstTCPClose	G=VAR
+++D=BOOL	N=setSend	G=VAR
+++D=SktTCPSend	N=InstSetSend	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=setSendData	G=VAR
+++D=UINT	N=setSendSize	G=VAR
+++D=BOOL	N=setRcvData	G=VAR
+++D=SktTCPRcv	N=InstGetRcv	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=getRcvData	G=VAR
+++D=UINT	N=getRcvSize	G=VAR
+++D=UINT	N=setRcvSize	G=VAR
+++D=INT	N=tcpStatusLoop	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=1	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=2	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,5 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
