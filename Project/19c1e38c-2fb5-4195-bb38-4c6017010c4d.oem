@@ -251,10 +251,10 @@
               <Entity type="Group" subtype="IecFunctionBlocks" id="7b8ae8dc-bf0a-4468-b087-ff1d3d53d5bc" name="Function Blocks" version="0" dateCreated="01/08/2020 08:22:59" trackingId="8a221694-0c26-43fd-88ae-8299364d25da" DN="Function Blocks">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="48cfba26-b394-4dd1-bcc9-feb4f528410d" name="FB_TCP_SERVER" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/08/2020 08:36:48" label="0.0.0" author="kauter" namespace="OEE_FI_TCP_SERVER_CLIENT" trackingId="06e684e0-d51d-45a6-b459-475e76cc8ed9" DN="FB_TCP_SERVER {OEE_FI_TCP_SERVER_CLIENT}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="48cfba26-b394-4dd1-bcc9-feb4f528410d" name="FB_TCP_SERVER" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/08/2020 08:36:48" label="0.0.0" author="kauter" namespace="OEE_FI_TCP_SERVER_CLIENT" usingNamespaces="OEE_FI_TCP_SERVER_CLIENT&#xD;&#xA;" trackingId="06e684e0-d51d-45a6-b459-475e76cc8ed9" DN="FB_TCP_SERVER {OEE_FI_TCP_SERVER_CLIENT}">
                     <AccessInfos />
                     <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="463d75ac-9103-4e68-b54b-124c23cebd5c" name="Variables" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/08/2020 09:21:32" trackingId="0c369776-29cd-4c4e-9e0f-59d6a761add5" hash="8fea0cc3f1b8e6f8e1bf44f924f324a6">
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="463d75ac-9103-4e68-b54b-124c23cebd5c" name="Variables" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/09/2020 13:26:33" trackingId="0c369776-29cd-4c4e-9e0f-59d6a761add5" hash="780799971f299b3cdf0aeb5e5135dc09">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="c299ef26-9511-4734-9247-a57e89dcb1fa" name="PouIFLibrary" version="NaN" dateCreated="01/08/2020 08:24:13" trackingId="7a2b2b70-0efc-4527-b4d9-7fdebc322b38">
@@ -267,7 +267,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="0af2a195-5e3a-4f8e-80b7-f421a7ef72e9" name="LadderBody" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/08/2020 09:22:10" trackingId="f63bd58a-8075-457e-82de-7f2d09727c50" hash="6151134bca1f17c1c983688821770865">
+                      <Entity type="PouBody" subtype="Ladder" id="0af2a195-5e3a-4f8e-80b7-f421a7ef72e9" name="LadderBody" version="0" dateCreated="01/08/2020 08:24:13" dateLastModified="01/09/2020 13:26:33" trackingId="f63bd58a-8075-457e-82de-7f2d09727c50" hash="219b8a52adbebe786385127a601f1354">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="ec6d7585-6e08-4e8c-adaa-b723fead0ab4" name="Source" version="0" dateCreated="01/08/2020 08:24:13" trackingId="e7d26be2-2d94-427c-a2af-0274d97d2b1a">
@@ -278,15 +278,27 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="7333fe6c-562e-4934-9680-b5ef5a6713e8" name="c924e5d5-9bb6-46d0-9267-813362fa4f95" version="0" dateCreated="01/08/2020 08:31:27" dateLastModified="01/08/2020 09:22:10" trackingId="c924e5d5-9bb6-46d0-9267-813362fa4f95">
+                          <Entity type="Inline" subtype="StructuredText" id="7333fe6c-562e-4934-9680-b5ef5a6713e8" name="c924e5d5-9bb6-46d0-9267-813362fa4f95" version="0" dateCreated="01/08/2020 08:31:27" dateLastModified="01/09/2020 13:26:33" trackingId="c924e5d5-9bb6-46d0-9267-813362fa4f95">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="0454785d-93cb-4887-9980-eeb6a738fcdb" name="c98a36da-7c52-4de1-aeb6-3407d174c423" version="0" dateCreated="01/08/2020 08:44:52" dateLastModified="01/08/2020 09:22:10" trackingId="c98a36da-7c52-4de1-aeb6-3407d174c423">
+                          <Entity type="Inline" subtype="StructuredText" id="0454785d-93cb-4887-9980-eeb6a738fcdb" name="c98a36da-7c52-4de1-aeb6-3407d174c423" version="0" dateCreated="01/08/2020 08:44:52" dateLastModified="01/09/2020 13:26:33" trackingId="c98a36da-7c52-4de1-aeb6-3407d174c423">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="d8e108f5-1ffc-4181-8f92-94e4c1905ed7" name="67ab30a2-d602-4364-9fca-39670fd0ee3b" version="0" dateCreated="01/08/2020 08:47:21" dateLastModified="01/08/2020 09:22:10" trackingId="67ab30a2-d602-4364-9fca-39670fd0ee3b">
+                          <Entity type="Inline" subtype="StructuredText" id="d8e108f5-1ffc-4181-8f92-94e4c1905ed7" name="67ab30a2-d602-4364-9fca-39670fd0ee3b" version="0" dateCreated="01/08/2020 08:47:21" dateLastModified="01/09/2020 13:26:33" trackingId="67ab30a2-d602-4364-9fca-39670fd0ee3b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f9b2b29b-5e86-409f-93b6-390dff00f0ed" name="7489d70f-eec3-4377-b544-8cfeb04876bc" version="0" dateCreated="01/09/2020 12:32:07" dateLastModified="01/09/2020 13:26:33" trackingId="7489d70f-eec3-4377-b544-8cfeb04876bc">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f6a06157-ecaa-4115-89f2-93f01f590d4e" name="ba1a439d-37e4-4e1e-a8bc-544d82cdc167" version="0" dateCreated="01/09/2020 13:00:39" dateLastModified="01/09/2020 13:26:33" trackingId="ba1a439d-37e4-4e1e-a8bc-544d82cdc167">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="6f71d6f1-ffa8-47f8-b54a-b821cd0437c1" name="1b9b97af-c825-47ea-8bc2-8d347774f383" version="0" dateCreated="01/09/2020 13:21:18" dateLastModified="01/09/2020 13:26:33" trackingId="1b9b97af-c825-47ea-8bc2-8d347774f383">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -354,7 +366,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="cfed763e-8c25-4ef5-bf51-7e2740fc21ce" name="Data Types0" version="0" dateCreated="01/08/2020 08:24:30" dateLastModified="01/08/2020 08:36:48" namespace="OEE_FI_TCP_SERVER_CLIENT" trackingId="ccd54790-1c9e-4f40-ae51-98a8480e5624" hash="ae55469e6f1924d38d77ee37443fedcc">
+              <Entity type="DataType" subtype="" id="cfed763e-8c25-4ef5-bf51-7e2740fc21ce" name="Data Types0" version="0" dateCreated="01/08/2020 08:24:30" dateLastModified="01/09/2020 13:22:27" namespace="OEE_FI_TCP_SERVER_CLIENT" trackingId="ccd54790-1c9e-4f40-ae51-98a8480e5624" hash="7e2f3c3867d4732a9caf98b8ee564008">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="faf19a09-e691-4a5b-b2d5-e14b1e00600f" name="Source" version="0" dateCreated="01/08/2020 08:24:30" trackingId="6d6e26fa-d80d-4784-a79b-d8a63be34170">
