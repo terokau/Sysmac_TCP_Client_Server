@@ -1,4 +1,21 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
+++D=OEE_FI_TCP_SERVER_CLIENT\FB_TCP_SERVER	N=TEST_SERVER	G=VAR
+++D=BOOL	N=setEnableServer	G=VAR
+++D=BOOL	N=setSend	G=VAR
+++D=UINT	N=setSendSize	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=setSendData	G=VAR
+++D=BOOL	N=getSendDone	G=VAR
+++D=BOOL	N=getRcvDataDone	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=getRcvData	G=VAR
+++D=UINT	N=getRcvSize	G=VAR
+++D=_sSOCKET	N=getSocket	G=VAR
+++D=_eCONNECTION_STATE	N=getConnectionStatus	G=VAR
+++D=OEE_FI_TCP_SERVER_CLIENT\ServerConnState_var	N=getConnState	G=VAR
+++D=STRING[1986]	N=SetString	Ord=1	G=VAR	AOE=1
+++D=BOOL	N=exeSend	Ord=2	G=VAR	AOE=1
+++D=STRING[1986]	N=getRcvString	Ord=4	G=VAR	AOE=1
+++D=BOOL	N=getError	Ord=6	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL

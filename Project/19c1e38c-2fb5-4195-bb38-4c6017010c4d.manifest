@@ -4,8 +4,8 @@
   <Solution solutionName="TCP_ClientServer" id="19c1e38c-2fb5-4195-bb38-4c6017010c4d" trackingId="9a26c977-c82f-474d-aab5-9c4bf4cc39d9" solutionSchemaVersion="2">
     <ApplicationFeatures>
       <ApplicationFeature name="V102Project" />
-      <ApplicationFeature name="DBCon V2.00" />
-      <ApplicationFeature name="SetUnit NX102-1220 Ver. 1.33" />
+      <ApplicationFeature name="SetUnit NX102-9020 Ver. 1.32" />
+      <ApplicationFeature name="DBCon V1.04" />
       <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
     </ApplicationFeatures>
   </Solution>

@@ -11,7 +11,6 @@ _EN=Variables
 ++D=SktClearBuf	N=InstClearBuffer	G=VAR
 ++D=BOOL	N=getTCPStatus	G=VAR
 ++D=SktGetTCPStatus	N=InstGetTCPStatus	G=VAR
-++D=_eCONNECTION_STATE	N=getConnectionStatus	G=VAR
 ++D=BOOL	N=getDataRcvFlag	G=VAR
 ++D=BOOL	N=setCloseServer	G=VAR
 ++D=SktClose	N=InstTCPClose	G=VAR
@@ -20,7 +19,7 @@ _EN=Variables
 ++D=SktTCPRcv	N=InstGetRcv	G=VAR
 ++D=UINT	N=setRcvSize	G=VAR
 ++D=INT	N=tcpStatusLoop	G=VAR
-++D=OEE_FI_TCP_SERVER_CLIENT\ServerConnState_var	N=setConnState	G=VAR
+++D=BOOL	N=getAccpetBuys	Ord=1	G=VAR	AOE=1
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=PortConnected	Ord=0	G=VAR_INPUT	Com=EIP PORT Connection status
 ++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT
@@ -35,4 +34,6 @@ _EN=Variables
 ++D=ARRAY[0..1999] OF BYTE	N=getRcvData	Ord=10	G=VAR_OUTPUT
 ++D=UINT	N=getRcvSize	Ord=11	G=VAR_OUTPUT
 ++D=_sSOCKET	N=getSocket	Ord=12	G=VAR_OUTPUT
+++D=_eCONNECTION_STATE	N=getConnectionStatus	Ord=13	G=VAR_OUTPUT
+++D=OEE_FI_TCP_SERVER_CLIENT\ServerConnState_var	N=setConnState	Ord=14	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
