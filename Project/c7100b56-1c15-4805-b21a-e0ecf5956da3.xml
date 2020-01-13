@@ -1,5 +1,40 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
+++D=SktTCPConnect	N=InstTCPConnect	G=VAR
+++D=BOOL	N=setEnableClient	G=VAR
+++D=BOOL	N=setSktTCP_NODELAY	G=VAR
+++D=SktSetOption	N=InstTCPNoDelay	G=VAR
+++D=BOOL	N=SetNoDelayOnOff	G=VAR
+++D=BOOL	N=setClearBuffer	G=VAR
+++D=SktClearBuf	N=InstClearBuffer	G=VAR
+++D=BOOL	N=getTCPStatus	G=VAR
+++D=SktGetTCPStatus	N=InstGetTCPStatus	G=VAR
+++D=BOOL	N=getDataRcvFlag	G=VAR
+++D=BOOL	N=setCloseClient	G=VAR
+++D=SktClose	N=InstTCPClose	G=VAR
+++D=SktTCPSend	N=InstSetSend	G=VAR
+++D=BOOL	N=setRcvData	G=VAR
+++D=SktTCPRcv	N=InstGetRcv	G=VAR
+++D=UINT	N=setRcvSize	G=VAR
+++D=INT	N=tcpStatusLoop	G=VAR
+++D=BOOL	N=getAccpetBuys	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=BOOL	N=PortConnected	Ord=1	G=VAR_INPUT	Com=EIP PORT Connection status
+++D=STRING[100]	N=setDstAdr	Ord=2	G=VAR_INPUT
+++D=UINT	N=setSrcTCPPort	IV=0	Ord=3	G=VAR_INPUT
+++D=UINT	N=setDstTcpPort	Ord=4	G=VAR_INPUT
+++D=BOOL	N=setSend	Ord=5	G=VAR_INPUT
+++D=UINT	N=setSendSize	Ord=6	G=VAR_INPUT
+++D=ARRAY[0..1999] OF BYTE	N=setSendData	Ord=7	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=8	G=VAR_OUTPUT	Com=Client connected to Server
+++D=BOOL	N=Error	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=SendDone	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=RcvDataDone	Ord=11	G=VAR_OUTPUT
+++D=ARRAY[0..1999] OF BYTE	N=getRcvData	Ord=12	G=VAR_OUTPUT
+++D=UINT	N=getRcvSize	Ord=13	G=VAR_OUTPUT
+++D=_sSOCKET	N=getSocket	Ord=14	G=VAR_OUTPUT
+++D=_eCONNECTION_STATE	N=getConnectionStatus	Ord=15	G=VAR_OUTPUT
+++D=OEE_FI_TCP_SERVER_CLIENT\ConnState_var	N=setConnState	Ord=16	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

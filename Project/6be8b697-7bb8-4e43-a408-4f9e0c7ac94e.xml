@@ -8,8 +8,13 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="Program0" InstanceName="Program0" IniFileTrackingId="8fdd1cccc4864e56b16ef62bdff15245" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="prog_Server" InstanceName="prog_Server" IniFileTrackingId="8fdd1cccc4864e56b16ef62bdff15245" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="prog_Client" InstanceName="prog_Client" IniFileTrackingId="6f614ffc0bcb4e448697c9bb1d557e6a" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
   </Programs>
-  <RefreshUnitIds />
+  <RefreshUnitIds>
+    <RefreshUnitId RefreshUnitId="2d936aa3-91ae-4ecc-9ec7-1240120b89ae" />
+    <RefreshUnitId RefreshUnitId="f04b36a3-cf17-467b-b22f-7bf6e978ae86" />
+    <RefreshUnitId RefreshUnitId="8c9289f8-33db-4a8e-b657-11ef84dee65c" />
+  </RefreshUnitIds>
   <TaskInterfaceVariables version="1" />
 </data>
