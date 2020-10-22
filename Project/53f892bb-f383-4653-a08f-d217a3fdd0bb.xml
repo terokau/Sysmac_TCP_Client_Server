@@ -3,7 +3,7 @@
   <ControllerId>42557f4a-ec0d-48a7-8b4c-e09746e57c63</ControllerId>
   <ControllerName></ControllerName>
   <MajorVersion>1</MajorVersion>
-  <MinorVersion>32</MinorVersion>
+  <MinorVersion>33</MinorVersion>
   <Revision>0</Revision>
   <Category>Controller</Category>
   <Family>Nex</Family>
@@ -11,6 +11,6 @@
   <ModelDetail>9020</ModelDetail>
   <SystemErrorMessageDisplayLanguageSetting>en-US,ja-JP</SystemErrorMessageDisplayLanguageSetting>
   <IsDuplicateIdOptimized>true</IsDuplicateIdOptimized>
-  <Packages>DBCon 1.04</Packages>
+  <Packages>DBCon 2.00</Packages>
   <IsWithoutCommentTransfer>false</IsWithoutCommentTransfer>
 </data>

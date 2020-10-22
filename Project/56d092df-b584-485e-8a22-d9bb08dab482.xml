@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CpuRackNXBusMaster>
-  <CpuRackNXBusMaster VenderID="1" ProductCode="455672320" Revision="18874368" IONodeID="41528cb8-f85b-4630-8f20-df8c64c9c3c6" WaitTimeForAddition="3" CheckSerialNo="0" FailSoftOperation="0">
+  <CpuRackNXBusMaster VenderID="1" ProductCode="455672320" Revision="18939904" IONodeID="41528cb8-f85b-4630-8f20-df8c64c9c3c6" WaitTimeForAddition="3" CheckSerialNo="0" FailSoftOperation="0">
     <DirectIOPort IOPortID="fbe05e85-0806-4778-80b6-0c21f18337a0" UnitNumber="1" RelativeAtPath="status/registration" />
     <DirectIOPort IOPortID="e76f2397-1ff2-439d-9095-ac79fc6e5097" UnitNumber="1" RelativeAtPath="status/msg:enabled" />
     <DirectIOPort IOPortID="673ebca9-d39a-4095-a50d-32200a8c7b64" UnitNumber="1" RelativeAtPath="status/io:active" />

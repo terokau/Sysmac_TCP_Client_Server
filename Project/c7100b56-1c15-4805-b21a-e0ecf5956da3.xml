@@ -19,6 +19,7 @@ _EN=Variables
 ++D=UINT	N=setRcvSize	G=VAR
 ++D=INT	N=tcpStatusLoop	G=VAR
 ++D=BOOL	N=getAccpetBuys	G=VAR
+++D=BOOL	N=getEnableRising	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=PortConnected	Ord=1	G=VAR_INPUT	Com=EIP PORT Connection status

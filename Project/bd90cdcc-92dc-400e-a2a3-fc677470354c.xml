@@ -66,7 +66,7 @@
       </Options>
     </NexCpuEipTcpIpIPAddressSettingPort2SettingOptions>
     <NexCpuEipTcpIpIPAddressSettingPort2IPAddress>
-      <CurrentValue>192.168.251.1</CurrentValue>
+      <CurrentValue>192.168.1.10</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>192.168.251.1</DefaultValue>
@@ -149,7 +149,7 @@
       <Options />
     </NexCpuEipTcpIpHostIPAddressTableTableItemMaximumCount>
     <NexCpuEipTcpIpHostIPAddressTableTableItemCount>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
@@ -166,7 +166,7 @@
       </Options>
     </NexCpuEipTcpIpIsKeepAlive>
     <NexCpuEipTcpIpKeepAliveSuperviseTime>
-      <CurrentValue>300</CurrentValue>
+      <CurrentValue>10</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300</DefaultValue>
@@ -204,7 +204,7 @@
       <Options />
     </NexCpuEipTcpIpRouterTableTableItemMaximumCount>
     <NexCpuEipTcpIpRouterTableTableItemCount>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
@@ -3097,7 +3097,7 @@
   </NexCpuEipSNMPTrap>
   <NexCpuEipFINSSetting>
     <NexCpuEipFINSSettingFINSIPAddressSettingEIPNodeAddress>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue>10</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1</DefaultValue>
@@ -3143,7 +3143,7 @@
       <Options />
     </NexCpuEipFINSSettingFINSIPAddressSettingAddressTable>
     <NexCpuEipFINSSettingFINSIPAddressSettingAddressTableTableItemCount>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>

@@ -16,3 +16,4 @@ _EN=Variables
 ++D=STRING[1986]	N=getRcvString	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=_EIP2_EtnOnlineSta	Ord=1	Const=1	G=VAR_EXTERNAL	AOE=1
